@@ -1,0 +1,67 @@
+
+/*
+	**Меню и пагинация**
+*/
+.mainmenu ul li:hover > a, .mainmenu ul li.current-menu-item > a, .mainmenu li.bordered-menu a, .bordered-btn, .bordered-btn:hover, .service-box-style-5:hover {
+	background:none;
+	color:#fdb45e;
+}
+s
+.pagination>li>span.current, .pagination>li>a:focus, .pagination>li>span:focus {
+	background:#FE980F;
+	color: #fff;
+	padding: 4px 12px;
+}
+
+.productinfo h4{
+	color: #FE980F;
+	font-family: 'Roboto', sans-serif;
+}
+.product-overlay h4{
+	color: #FE980F;
+	font-family: 'Roboto', sans-serif;
+}
+/*
+	**Страница товара**
+*/
+.cart{
+	background: #FE980F !important;
+	color: #FFFFFF !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.product-information {
+	border: 1px solid #F7F7F0;
+	overflow: hidden;
+	padding-bottom: 0px !important;
+	padding-left: 30px !important;
+	padding-top: 0px !important;
+	position: relative;
+	font-size: 14px;
+}
+
+/*
+	**Корзина**
+*/
+
+img.attachment-woocommerce_thumbnail{
+	width: 110px !important;
+	height: 110px !important;
+}
+
+.table-condensed a {
+	color: black !important;
+}
+tr.product {
+	border-bottom: 1px solid#F7F7F0 !important;
+	border-collapse: collapse !important;
+	height: 146px !important;
+}
+
+.cart_product{
+	margin: 15px -70px 10px 25px !important;
+}
+
+.cart_delete a{
+	color: white !important;
+}
